@@ -16,6 +16,7 @@ html,body {
 .heading {
     font-size: 40px;
     color: #fff;
+    text-align: center;
 }
 
 body {
@@ -121,6 +122,12 @@ input[type="text"] {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .heading {
+        font-size: 25px;
+        color: #fff;
+        text-align: center;
     }
 
     .word-meaning {

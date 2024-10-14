@@ -83,6 +83,11 @@ input[type="text"] {
     margin: 20px 0px 0px;
 }
 
+.result .error {
+    margin: 25px 0px 0px;
+    font-size: 16px;
+}
+
 .icon-btn {
     background: none;
     border: 3px solid #66c2ff;

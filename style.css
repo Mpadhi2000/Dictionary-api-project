@@ -114,6 +114,11 @@ input[type="text"] {
     font-weight: 700;
 }
 
+.result .error {
+    margin: 25px 0px 0px;
+    font-size: 16px;
+}
+
 /* Tablet devices (between 768px and 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
     .container{
@@ -129,6 +134,11 @@ input[type="text"] {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .result .error {
+        margin: 20px 0px 0px;
+        font-size: 14px;
     }
 
     .heading {

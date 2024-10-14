@@ -13,11 +13,18 @@ html,body {
     height: 100%;
 }
 
+.heading {
+    font-size: 40px;
+    color: #fff;
+}
+
 body {
     background-color: #66c2ff;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .container {
@@ -27,6 +34,9 @@ body {
     border-radius: 10px;
     box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
     padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .inner-container {
